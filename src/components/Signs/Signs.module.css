@@ -1,0 +1,18 @@
+.Container{
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    padding-left: 1%;
+}
+.video {
+    
+    padding-bottom: 4%;
+    width: 30%;
+    height: 20%;
+    position: absolute; 
+    bottom: 0; 
+}
+.btnContainer{
+    position: absolute; 
+    bottom: 0;
+    left: calc(10% + 10px);
+}

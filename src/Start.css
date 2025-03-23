@@ -1,0 +1,71 @@
+*{
+  background-color: #f3edd1;
+}
+.main{
+  text-align: center;
+}
+.Container {
+  position: absolute;
+    top: 50vh;
+    right: 30vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
+.App-header {
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #0b0b16;
+  position: relative;
+}
+.audio-button {
+  font-size: 16px;
+  background-color: #6e94be;
+  color: #fff;
+  padding: 10px 20px;
+  position: absolute;
+  border-radius: 5%;
+  border: none;
+  outline: none;
+  top: 40px; 
+  right: 60px;
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logoUp {
+  padding: 10px 5px;
+  position: absolute;
+  top: 10px; 
+  left: 40px;
+  height: 28%;
+}
+.lOGO_fiscalía{
+  height: 120px;
+}
+.Tittle{
+  height: 35vmin;
+  pointer-events:none;
+}
+.Edad{
+  height: 7vmin;
+}
+
+.container-btn1 :hover{
+  cursor: pointer;
+}
+
+.container-btn2 :hover{
+  cursor: pointer;
+}
+
+.container-btn3 :hover{
+  cursor: pointer;
+}
+
+.audio-button:hover {
+  background-color: #cda9eb;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}

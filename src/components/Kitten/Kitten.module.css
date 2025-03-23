@@ -1,0 +1,22 @@
+.Container{
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+}
+
+.video {
+    padding-bottom: 0%;
+    /* padding-left: 2%; */
+    width: 10%;
+    height: 30%;
+    position: absolute; 
+    bottom: 0; 
+    margin-bottom: 0%;
+}
+.btnContainer{
+    position: absolute; 
+    bottom: 3%;
+    left: calc(10% + 10px);
+}
+.Next{
+    width: 16vmin;
+}

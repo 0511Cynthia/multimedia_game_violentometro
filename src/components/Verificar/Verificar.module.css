@@ -1,0 +1,9 @@
+.btnContainer :hover{
+    cursor: pointer;
+}
+.btnContainer{
+    margin-left: 50%;
+}
+.verificar{
+    width: 15vmin;
+}

@@ -1,0 +1,25 @@
+.containerVideo {
+    width: 50%;
+    height: 70%;    
+    border-radius: 20px;
+    
+  }  
+.video {
+    width: 50%;
+    height: 20%;
+    margin-left: 50%;
+
+}
+.btnContainer{
+    margin-left: 50%;
+}
+button{
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 20%;
+    border: none;
+    object-fit: contain;
+}
+.btn3{
+    width: 20vmin;
+}

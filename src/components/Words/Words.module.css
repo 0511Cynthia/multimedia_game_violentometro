@@ -1,0 +1,10 @@
+.Word{
+    position: absolute;
+    padding-top: 2%;
+    width: 20vmin;
+    height: 5vmin;
+}
+
+.containerWord .Word:hover{
+    cursor: pointer;
+}

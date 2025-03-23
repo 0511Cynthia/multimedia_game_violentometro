@@ -1,0 +1,79 @@
+.Container{
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.AppHeader {
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #0b0b16;
+    display: grid;
+    grid-template-columns: .1fr .1fr .1fr .1fr .1fr; 
+}
+.Hp{
+    height: 10vmin;
+    padding-top: 10%;
+}
+
+.wordsContainer {
+    position: absolute;
+    top: 28%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+    gap: 50vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 9vh;
+}
+
+.inputsContainer {
+    position: absolute;
+    top: 15%;
+    margin-left: 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputsContainer input{
+    font-size: 19px;
+    width: 80%;
+    margin-bottom: 14%;
+    border: none;
+    background-color: #d3bbe7;
+    border-radius: 5px; 
+    padding: 3px;
+    transition: background-color 0.3s ease, box-shadow 0.5s ease; 
+    box-shadow: 0 0 0 3px rgba(110, 148, 190, 0);
+}
+.columnContainer{
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+}
+.imgContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.Thermometer{ 
+    padding-bottom: .2%;
+    width: 34vh;  
+}
+.btnContainer{
+    height: 8vh;
+    width: 12vh;
+    position: absolute;
+    bottom: 8vh;
+    left: 90vh;
+}
+
+.inputsContainer input:focus {
+    outline: none; 
+    background-color: #9ebde0; 
+    box-shadow: 0 0 0 3px #074286a4; 
+}
