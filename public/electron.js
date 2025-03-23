@@ -7,21 +7,19 @@ function createWindow() {
         width: 1280,
         height: 1024,
         webPreferences: {
-            nodeIntegration: true,
-            contextIsolation: false,
-        },
-    });
+        nodeIntegration: true,
+        contextIsolation: false,
+    },
+});
 
     win.loadURL(
         isDev
-            ? 'http://localhost:3000'
-            : `file://${path.join(__dirname, 'build', 'index.html')}`
+        ? 'http://localhost:3000' // Modo desarrollo
+        : `file://${path.join(__dirname, 'build', 'index.html')}` // Modo producción
     );
 
     if (isDev) {
-        win.webContents.openDevTools();
-    }else{
-        win.loadFile(`${path.join(__dirname, '../build/index.html')}`);
+        win.webContents.openDevTools(); // Abre las herramientas de desarrollo en modo desarrollo
     }
 }
 
